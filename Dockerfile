@@ -1,6 +1,8 @@
 FROM python:3
 MAINTAINER Giovanni De Gasperis @giodegas
 
+RUN apt-get update && apt-get upgrade && apt-get -y install vim nano
+
 WORKDIR /app
 
 COPY requirements.txt ./
