@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY run.py /app/.
 
-CMD [ "python", "/app/run.py" ]
+CMD [ "bash" ]
