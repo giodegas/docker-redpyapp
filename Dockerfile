@@ -1,4 +1,4 @@
-FROM python:3
+FROM pypy:3
 MAINTAINER Giovanni De Gasperis @giodegas
 
 RUN apt-get update && apt-get upgrade -y && apt-get -y install vim nano screen
